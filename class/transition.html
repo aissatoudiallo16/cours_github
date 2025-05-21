@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-content {
+            width: 400px;
+            height: 300px;
+            background-color: bisque;
+            transition: background-color 0.4s ease 0.4s;
+        }
+        .flex-content:hover {
+            background-color: black;
+        }
+        .btn {
+            color: blue;
+            transition: transform 0.5s;
+            font-size: 16px;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .btn:hover{
+            transform: scale(2.1);
+        }
+        li:first-child {
+            font-weight: bolder;
+        }
+        li:last-child {
+            color: brown;
+        }
+        ul {
+            background-color: beige;
+            transition: background-color 0.4s ease 0.4s;
+        }
+        ul:hover {
+            background-color: blueviolet;
+        }
+        input {
+            color: bisque;
+            border-color: blue;
+            transition: border-color 0.4s ease 0.4s;
+        }
+        .input:focus {
+            border-color: rgb(52, 23, 182);
+        }
+        button {
+            color: rgb(9, 110, 199);
+            font-size: 16px;
+            transition: transform 0.4s ease 0.4s;
+        }
+        button:hover {
+            transform: scale(2.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-content"></div>
+
+    <br>
+    <button class="btn">Cliquez-ici</button>
+    <ul>
+        <li>mangue</li>
+        <li>orange</li>
+        <li>avocat</li>
+        <li>banane</li>
+    </ul>
+    <input type="text">
+    <button>cliquez</button>
+</body>
+</html>

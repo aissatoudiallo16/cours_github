@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(233, 233, 220);
+}
+h2 {
+    color: rgb(211, 134, 18);
+}
+div{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+img {
+       width: 300px;
+    height: 300px;
+    border-radius: 8px; 
+}
+div h3 {
+    text-align: center;
+}
