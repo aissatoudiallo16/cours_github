@@ -1,0 +1,67 @@
+body {
+    background-color: blueviolet;
+}
+.flex-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    justify-content: center;
+    margin-top: 100px;
+}
+.item {
+    background-image: url(https://images.pexels.com/photos/6476124/pexels-photo-6476124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 800px;
+    height: 700px;
+    font-size: 20px;
+}
+.item1 {
+    background-color: white;
+    width: 700px;
+    height: 640px;
+    padding: 30px;
+    font-size: 20px;
+}
+.item h2,.item h3 {
+            text-align: center;
+}
+.item h2 {
+    margin-top: 300px;
+}
+button {
+    background-color: blueviolet;
+    color: white;
+    width: 550px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: content-box;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+input {
+    box-sizing: content-box;
+    padding: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 90%;
+    padding-left: 15px;
+}
+#lien {
+    margin-top: 30px;
+    color: rgb(151, 59, 238);
+    padding-left: 15px;
+}
+#p {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a {
+    margin-top: 18px;
+    padding-right: 10px;
+}
